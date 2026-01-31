@@ -109,7 +109,7 @@ const Chat = () => {
               onMouseOut={(e) => { if (String(selectedUser?.id) !== String(conv.user._id)) e.target.style.background = 'white'; }}
             >
               <img 
-                src={conv.user.profilePhoto || 'https://via.placeholder.com/50/667eea/ffffff?text=U'} 
+                src={conv.user.profilePhoto || 'https://via.placeholder.com/150/667eea/ffffff?text=User'} 
                 alt="User" 
                 style={{ width: '40px', height: '40px', borderRadius: '50%', objectFit: 'cover', marginRight: '1rem' }}
               />

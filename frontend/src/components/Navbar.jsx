@@ -46,8 +46,8 @@ const Navbar = () => {
         maxWidth: '1200px',
         margin: '0 auto'
       }}>
-        <Link to="/" style={{ textDecoration: 'none', color: 'white', fontSize: '1.8rem', fontWeight: '700' }}>
-          College Connect
+        <Link to="/" style={{ textDecoration: 'none', color: 'white', fontSize: '1.8rem', fontWeight: '700', textAlign:'left' }}>
+          Rajkiya Engineering College Kannauj
         </Link>
         <div>
           {user ? (
